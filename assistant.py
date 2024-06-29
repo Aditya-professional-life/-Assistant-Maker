@@ -11,9 +11,9 @@ from groq import Groq
 import google.generativeai as genai
 
 wake_word = "bro"
-groq_client = Groq(api_key="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")
+groq_client = Groq(api_key="Your api key")
 
-genai.configure(api_key="AIzaSyAL8p-6eRcdNC4PE5qRZAjLgsv8b51M-ag")
+genai.configure(api_key="your api key")
 web_cam = cv2.VideoCapture(0)
 
 sys_msg = (
